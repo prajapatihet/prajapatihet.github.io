@@ -110,3 +110,33 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+const projectItems = document.querySelectorAll('.project-item > a');
+const modal = document.getElementById('imageModal');
+const modalImage = document.getElementById('modalImage');
+const closeModal = document.querySelector('.modal .close');
+
+// Add click event listener to each project item
+projectItems.forEach(item => {
+  item.addEventListener('click', (e) => {
+    if (window.innerWidth <= 1022) {
+      return;
+    }
+    e.preventDefault(); // Prevent default link behavior
+    const imgSrc = item.querySelector('img').src;
+    modalImage.src = imgSrc;
+    modal.style.display = 'block'; // Show the modal
+  });
+});
+
+// Close the modal when the "x" is clicked
+closeModal.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
+
+// Close the modal when clicking outside the image
+modal.addEventListener('click', (e) => {
+  if (e.target === modal) {
+    modal.style.display = 'none';
+  }
+});
