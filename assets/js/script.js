@@ -111,7 +111,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
-const projectItems = document.querySelectorAll('.project-item > a');
+const projectItems = document.querySelectorAll('.certificate-item > a');
 const modal = document.getElementById('imageModal');
 const modalImage = document.getElementById('modalImage');
 const closeModal = document.querySelector('.modal .close');
