@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Hetkumar | Software Developer",
+    "description": "Portfolio website showcasing product design work and skills"
+  },
+  "personal": {
+    "name": "Hetkumar Prajapati",
+    "title": "Software Developer",
+    "location": "Gujarat, India",
+    "avatar": "/my_profile.png",
+    "email": "hetkumar.prajapati08@gmail.com",
+    "phone": "+91 9265504635",
+    "workingHours": "Monday - Friday, 9am - 5pm PST",
+    "availableForWork": true,
+    "badges": ["React", "Next.js", "Typescript", "TailwindCSS", "Figma"],
+    "social": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/prajapatihet",
+        "icon": "Github"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/hetkumar-prajapati/",
+        "icon": "Linkedin"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/hetprajapati008/",
+        "icon": "Instagram"
+      }
+    ]
+  },
+  "about": {
+    "bio": "I create user-centered digital experiences that solve real problems. Passionate about accessibility and ethical design with over 2 years of experience in product design and user experience research.",
+    "focus": [
+      "Creating intuitive and accessible digital products",
+      "Leading design teams and establishing design systems",
+      "Conducting user research to inform product decisions"
+    ],
+    "languages": [
+      {
+        "name": "Hindi",
+        "proficiency": "Intermediate",
+        "level": 90,
+        "flag": "in"
+      },
+      {
+        "name": "English",
+        "proficiency": "Intermediate",
+        "level": 80,
+        "flag": "🇺🇸"
+      }
+    ],
+    "interests": ["Design Systems", "Accessibility", "Typography", "Motion Design"]
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Credentials",
+      "href": "#credentials"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Developer Intern",
+      "company": "Gigstryk Entertainment Pvt Ltd",
+      "period": "Dec 2024 - Mar 2025",
+      "description": "Lead the design of flagship products, managing a team of 3 designers. Implemented a design system that reduced design inconsistencies by 60% and improved development time by 40%. Conducted user research and usability testing to inform product decisions.",
+      "achievements": [
+        "Redesigned the main dashboard, increasing user engagement by 35%",
+        "Led the design for 3 major feature launches, contributing to a 25% increase in user retention",
+        "Established design processes that improved team collaboration and product quality"
+      ],
+      "technologies": ["Flutter", "Dart", "API Integration", "Flutter bloc"]
+    }
+  ],
+  "credentials": {
+    "certifications": [
+      {
+        "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+        "issuer": "Microsoft",
+        "date": "2025",
+        "logo": "/microsoft_logo.png"
+      },
+      {
+        "name": "Microsoft Certified: Azure AI Fundamentals (AI-900)",
+        "issuer": "Microsoft",
+        "date": "2024",
+        "logo": "/microsoft_logo.png"
+      },
+      {
+        "name": "Oracle Cloud Infrastructure 2024 Generative AI Professional",
+        "issuer": "Oracle Cloud",
+        "date": "2024",
+        "logo": "/oracle_logo.png"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Technology in Computer Science",
+        "institution": "Parul University",
+        "year": "2021-2025",
+        "logo": "/graduate_logo.png"
+      }
+    ],
+    "skills": [
+      "Frontend Development",
+      "Backend Development",
+      "Database Design",
+      "API Integration",
+      "Version Control",
+      "Project Management",
+      "Collaboration"
+    ]
+  },
+  "technicalSkills": {
+    "design": ["Figma", "Sketch", "Adobe XD"],
+    "development": ["HTML/CSS", "JavaScript", "React", "Tailwind", "SCSS", "Git", "Responsive Design"],
+    "uxMethods": [
+      "User Research",
+      "Usability Testing",
+      "Wireframing",
+      "Prototyping",
+      "Information Architecture",
+      "User Flows"
+    ],
+    "softSkills": ["Team Leadership", "Project Management", "Client Communication", "Mentoring", "Presentations"]
+  }
+}
