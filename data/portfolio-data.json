@@ -131,7 +131,7 @@
   },
   "technicalSkills": {
     "design": ["Figma", "Sketch", "Adobe XD"],
-    "development": ["HTML/CSS", "JavaScript", "React", "Tailwind", "SCSS", "Git", "Responsive Design"],
+    "development": ["HTML/CSS","Flutter", "JavaScript", "React", "Tailwind", "SCSS", "Git", "Responsive Design"],
     "uxMethods": [
       "User Research",
       "Usability Testing",
