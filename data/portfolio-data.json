@@ -130,16 +130,51 @@
     ]
   },
   "technicalSkills": {
-    "design": ["Figma", "Sketch", "Adobe XD"],
-    "development": ["HTML/CSS","Flutter", "JavaScript", "React", "Tailwind", "SCSS", "Git", "Responsive Design"],
-    "uxMethods": [
-      "User Research",
-      "Usability Testing",
-      "Wireframing",
-      "Prototyping",
-      "Information Architecture",
-      "User Flows"
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React.js",
+      "Tailwind CSS",
+      "Responsive Design"
     ],
-    "softSkills": ["Team Leadership", "Project Management", "Client Communication", "Mentoring", "Presentations"]
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "REST API Development"
+    ],
+    "mobileDevelopment": [
+      "Flutter",
+      "FlutterFlow",
+      "Firebase Integration",
+      "MVVM Architecture"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB",
+      "Firebase Firestore",
+      "SQL"
+    ],
+    "cloudAndDevOps": [
+      "Azure",
+      "Docker",
+      "Git",
+      "GitHub Actions",
+      "CI/CD Pipelines"
+    ],
+    "softSkills": [
+      "Team Leadership",
+      "Project Management",
+      "Client Communication",
+      "Mentoring",
+      "Presentations",
+      "Cross-functional Collaboration"
+    ],
+    "otherTechnical": [
+      "Authentication & Authorization",
+      "Third-party API Integration",
+      "In-App Purchases",
+      "Push Notifications"
+    ]
   }
 }

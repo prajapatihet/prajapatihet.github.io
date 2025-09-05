@@ -81,43 +81,72 @@ export default function Home() {
                     <h3 className="text-lg font-medium">Technical Skills</h3>
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+
+                    {/* Frontend Section */}
                     <AnimatedSection animation="slide-right" delay={100}>
                       <div className="space-y-3">
-                        <h4 className="text-sm font-medium text-zinc-400">Design</h4>
+                        <h4 className="text-base font-medium text-zinc-300">Frontend</h4>
                         <div className="flex flex-wrap gap-2">
-                          {technicalSkills.design.map((skill, index) => (
+                          {technicalSkills.frontend.map((skill, index) => (
                             <SkillTagComponent key={index}>{skill}</SkillTagComponent>
                           ))}
                         </div>
                       </div>
                     </AnimatedSection>
 
+                    {/* Backend Section */}
                     <AnimatedSection animation="slide-left" delay={200}>
                       <div className="space-y-3">
-                        <h4 className="text-sm font-medium text-zinc-400">Development</h4>
+                        <h4 className="text-base font-medium text-zinc-300">Backend</h4>
                         <div className="flex flex-wrap gap-2">
-                          {technicalSkills.development.map((skill, index) => (
+                          {technicalSkills.backend.map((skill, index) => (
                             <SkillTagComponent key={index}>{skill}</SkillTagComponent>
                           ))}
                         </div>
                       </div>
                     </AnimatedSection>
 
+                    {/* Mobile Development Section */}
                     <AnimatedSection animation="slide-right" delay={300}>
                       <div className="space-y-3">
-                        <h4 className="text-sm font-medium text-zinc-400">UX Methods</h4>
+                        <h4 className="text-base font-medium text-zinc-300">Mobile Development</h4>
                         <div className="flex flex-wrap gap-2">
-                          {technicalSkills.uxMethods.map((skill, index) => (
+                          {technicalSkills.mobileDevelopment.map((skill, index) => (
                             <SkillTagComponent key={index}>{skill}</SkillTagComponent>
                           ))}
                         </div>
                       </div>
                     </AnimatedSection>
 
+                    {/* Databases Section */}
                     <AnimatedSection animation="slide-left" delay={400}>
                       <div className="space-y-3">
-                        <h4 className="text-sm font-medium text-zinc-400">Soft Skills</h4>
+                        <h4 className="text-base font-medium text-zinc-300">Databases</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {technicalSkills.databases.map((skill, index) => (
+                            <SkillTagComponent key={index}>{skill}</SkillTagComponent>
+                          ))}
+                        </div>
+                      </div>
+                    </AnimatedSection>
+
+                    {/* Cloud Section */}
+                    <AnimatedSection animation="slide-right" delay={500}>
+                      <div className="space-y-3">
+                        <h4 className="text-base font-medium text-zinc-300">Cloud</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {technicalSkills.cloudAndDevOps.map((skill, index) => (
+                            <SkillTagComponent key={index}>{skill}</SkillTagComponent>
+                          ))}
+                        </div>
+                      </div>
+                    </AnimatedSection>
+
+                    {/* Soft Skills Section */}
+                    <AnimatedSection animation="slide-right" delay={700}>
+                      <div className="space-y-3">
+                        <h4 className="text-base font-medium text-zinc-300">Soft Skills</h4>
                         <div className="flex flex-wrap gap-2">
                           {technicalSkills.softSkills.map((skill, index) => (
                             <SkillTagComponent key={index}>{skill}</SkillTagComponent>
@@ -125,6 +154,19 @@ export default function Home() {
                         </div>
                       </div>
                     </AnimatedSection>
+
+                    {/* Others Section */}
+                    <AnimatedSection animation="slide-left" delay={800}>
+                      <div className="space-y-3">
+                        <h4 className="text-base font-medium text-zinc-300">Others</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {technicalSkills.otherTechnical.map((skill, index) => (
+                            <SkillTagComponent key={index}>{skill}</SkillTagComponent>
+                          ))}
+                        </div>
+                      </div>
+                    </AnimatedSection>
+
                   </div>
                 </CardContent>
               </Card>

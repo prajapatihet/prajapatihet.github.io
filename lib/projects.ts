@@ -51,13 +51,13 @@ const projects: Project[] = [
       "Data visualization charts for application trends and success rates"
     ],
     "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "Chart.js", "CSS3", "JWT"],
-    "coverImage": "/job_tracker_portal_thumbnail.png",
-    "thumbnailImage": "/job_tracker_portal_thumbnail.png",
+    "coverImage": "/thumbnails/job_tracker_portal_thumbnail.png",
+    "thumbnailImage": "/thumbnails/job_tracker_portal_thumbnail.png",
     "gallery": [
-      { "url": "/job_tracker_portal_demo1.png", "caption": "Main Dashboard with Application Overview" },
-      { "url": "/job_tracker_portal_demo2.png", "caption": "Analytics Dashboard with Charts" },
-      { "url": "/job_tracker_portal_demo3.png", "caption": "Application Details and Status Tracking" },
-      { "url": "/job_tracker_portal_demo4.png", "caption": "Advanced Filtering Interface" }
+      { "url": "/web/jobtracker/job_tracker_portal_demo1.png", "caption": "Main Dashboard with Application Overview" },
+      { "url": "/web/jobtracker/job_tracker_portal_demo2.png", "caption": "Analytics Dashboard with Charts" },
+      { "url": "/web/jobtracker/job_tracker_portal_demo3.png", "caption": "Application Details and Status Tracking" },
+      { "url": "/web/jobtracker/job_tracker_portal_demo4.png", "caption": "Advanced Filtering Interface" }
     ],
     "timeline": "4 months (Q3 2024)",
     "role": "Full Stack Developer",
@@ -68,13 +68,13 @@ const projects: Project[] = [
         "slug": "devops-analytics-dashboard",
         "title": "DevOps Analytics Dashboard",
         "category": "Web Application",
-        "image": "/devops_platform_thumbnail.png"
+        "image": "/thumbnails/devops_platform_thumbnail.png"
       },
       {
         "slug": "eventsync-app",
         "title": "EventSync",
         "category": "Mobile App",
-        "image": "/eventsync_app_thumbnail.png"
+        "image": "/thumbnails/eventsync_app_thumbnail.png"
       }
     ]
   },
@@ -98,14 +98,13 @@ const projects: Project[] = [
       "High-performance build system with Vite"
     ],
     "technologies": ["React.js", "Vite", "Tailwind CSS", "Chart.js", "GitHub API", "Docker", "Azure App Service"],
-    "coverImage": "/devops_platform_thumbnail.png",
-    "thumbnailImage": "/devops_platform_thumbnail.png",
+    "coverImage": "/thumbnails/devops_platform_thumbnail.png",
+    "thumbnailImage": "/thumbnails/devops_platform_thumbnail.png",
     "gallery": [
-      { "url": "/devops_platform_thumbnail.png", "caption": "Main Analytics Dashboard" },
-      { "url": "/devops_platform_demo1.png", "caption": "Pull Request Insights View" },
-      { "url": "/devops_platform_demo2.png", "caption": "Repository Health Metrics" },
-      { "url": "/devops_platform_demo3.png", "caption": "Team Productivity Reports" },
-      { "url": "/devops_platform_demo4.png", "caption": "Code Review Analytics" },
+      { "url": "/web/devops/devops_platform_demo1.png", "caption": "Pull Request Insights View" },
+      { "url": "/web/devops/devops_platform_demo2.png", "caption": "Repository Health Metrics" },
+      { "url": "/web/devops/devops_platform_demo3.png", "caption": "Team Productivity Reports" },
+      { "url": "/web/devops/devops_platform_demo4.png", "caption": "Code Review Analytics" },
     ],
     "timeline": "3 months (Q1 2024)",
     "role": "Frontend Developer",
@@ -116,13 +115,13 @@ const projects: Project[] = [
         "slug": "job-application-tracker",
         "title": "JobApplicationTracker",
         "category": "Web Application",
-        "image": "/job_tracker_portal_thumbnail.png"
+        "image": "/thumbnails/job_tracker_portal_thumbnail.png"
       },
       {
         "slug": "uniaccess-app",
         "title": "UniAccessApp",
         "category": "Mobile App",
-        "image": "/uniaccess_app_thumbnail.png"
+        "image": "/thumbnails/uniaccess_app_thumbnail.png"
       }
     ]
   },
@@ -146,13 +145,13 @@ const projects: Project[] = [
       "Local caching for improved performance and offline capability"
     ],
     "technologies": ["Flutter", "Dart", "Appwrite", "Stripe API", "SQLite", "QR Code Generator"],
-    "coverImage": "/eventsync_app_thumbnail.png",
-    "thumbnailImage": "/eventsync_app_thumbnail.png",
+    "coverImage": "/thumbnails/eventsync_app_thumbnail.png",
+    "thumbnailImage": "/thumbnails/eventsync_app_thumbnail.png",
     "gallery": [
-      { "url": "#", "caption": "Event Creation Interface" },
-      { "url": "#", "caption": "Ticketing and Payment Flow" },
-      { "url": "#", "caption": "Participant Management Dashboard" },
-      { "url": "#", "caption": "QR Code and Badge Generation" }
+      { "url": "/mobile/event/eventsync_demo1.jpg", "caption": "Event Creation Interface" },
+      { "url": "/mobile/event/eventsync_demo2.jpg", "caption": "Ticketing and Payment Flow" },
+      { "url": "/mobile/event/eventsync_demo3.jpg", "caption": "Participant Management Dashboard" },
+      { "url": "/mobile/event/eventsync_demo4.jpg", "caption": "QR Code and Badge Generation" }
     ],
     "timeline": "5 months (Q4 2023 - Q1 2024)",
     "role": "Mobile App Developer",
@@ -163,13 +162,13 @@ const projects: Project[] = [
         "slug": "uniaccess-app",
         "title": "UniAccessApp",
         "category": "Mobile App",
-        "image": "/uniaccess_app_thumbnail.png"
+        "image": "/thumbnails/uniaccess_app_thumbnail.png"
       },
       {
         "slug": "connect-donor",
         "title": "ConnectDonor",
         "category": "Mobile App",
-        "image": "/connect_donor_thumbnail.png"
+        "image": "/thumbnails/connect_donor_thumbnail.png"
       }
     ]
   },
@@ -193,15 +192,15 @@ const projects: Project[] = [
       "Responsive design for all screen sizes"
     ],
     "technologies": ["FlutterFlow", "Flutter", "Firebase", "SQLite", "Push Notifications"],
-    "coverImage": "/uniaccess_app_thumbnail.png",
-    "thumbnailImage": "/uniaccess_app_thumbnail.png",
+    "coverImage": "/thumbnails/uniaccess_app_thumbnail.png",
+    "thumbnailImage": "/thumbnails/uniaccess_app_thumbnail.png",
     "gallery": [
-      { "url": "/uniaccess_app_demo1.jpg", "caption": "Student Dashboard Overview" },
-      { "url": "/uniaccess_app_demo2.jpg", "caption": "Attendance Tracking Interface" },
-      { "url": "/uniaccess_app_demo3.jpg", "caption": "Fee Management Screen" },
-      { "url": "/uniaccess_app_demo4.jpg", "caption": "Exam Schedule and Timetable View" },
-      { "url": "/uniaccess_app_demo5.jpg", "caption": "Notification System" },
-      { "url": "/uniaccess_app_demo6.jpg", "caption": "Profile Management" }
+      { "url": "/mobile/uniaccess/uniaccess_app_demo1.jpg", "caption": "Student Dashboard Overview" },
+      { "url": "/mobile/uniaccess/uniaccess_app_demo2.jpg", "caption": "Attendance Tracking Interface" },
+      { "url": "/mobile/uniaccess/uniaccess_app_demo3.jpg", "caption": "Fee Management Screen" },
+      { "url": "/mobile/uniaccess/uniaccess_app_demo4.jpg", "caption": "Exam Schedule and Timetable View" },
+      { "url": "/mobile/uniaccess/uniaccess_app_demo5.jpg", "caption": "Notification System" },
+      { "url": "/mobile/uniaccess/uniaccess_app_demo6.jpg", "caption": "Profile Management" }
     ],
     "timeline": "3 months (Q2 2024)",
     "role": "Mobile App Developer",
@@ -212,13 +211,13 @@ const projects: Project[] = [
         "slug": "eventsync-app",
         "title": "EventSync",
         "category": "Mobile App",
-        "image": "/eventsync_app_thumbnail.png"
+        "image": "/thumbnails/eventsync_app_thumbnail.png"
       },
       {
         "slug": "connect-donor",
         "title": "ConnectDonor",
         "category": "Mobile App",
-        "image": "/connect_donor_thumbnail.png"
+        "image": "/thumbnails/connect_donor_thumbnail.png"
       }
     ]
   },
@@ -242,13 +241,13 @@ const projects: Project[] = [
       "Real-time communication between donors and blood banks"
     ],
     "technologies": ["Flutter", "Dart", "JSON", "Git", "GitHub", "Google Maps API", "Firebase"],
-    "coverImage": "/connect_donor_thumbnail.png",
-    "thumbnailImage": "/connect_donor_thumbnail.png",
+    "coverImage": "/thumbnails/connect_donor_thumbnail.png",
+    "thumbnailImage": "/thumbnails/connect_donor_thumbnail.png",
     "gallery": [
-      { "url": "#", "caption": "Donor Registration and Profile" },
-      { "url": "#", "caption": "Blood Bank Locator Map" },
-      { "url": "#", "caption": "Emergency Alert System" },
-      { "url": "#", "caption": "Blood Drive Management Interface" }
+      { "url": "/mobile/donor/donor_connect_demo1.jpg", "caption": "Donor Registration and Profile" },
+      { "url": "/mobile/donor/donor_connect_demo2.jpg", "caption": "Blood Bank Locator Map" },
+      { "url": "/mobile/donor/donor_connect_demo3.jpg", "caption": "Emergency Alert System" },
+      { "url": "/mobile/donor/donor_connect_demo4.jpg", "caption": "Blood Drive Management Interface" }
     ],
     "timeline": "4 months (Q3 2024)",
     "role": "Mobile App Developer",
@@ -259,13 +258,13 @@ const projects: Project[] = [
         "slug": "eventsync-app",
         "title": "EventSync",
         "category": "Mobile App",
-        "image": "/eventsync_app_thumbnail.png"
+        "image": "/thumbnails/eventsync_app_thumbnail.png"
       },
       {
         "slug": "uniaccess-app",
         "title": "UniAccessApp",
         "category": "Mobile App",
-        "image": "/uniaccess_app_thumbnail.png"
+        "image": "/thumbnails/uniaccess_app_thumbnail.png"
       }
     ]
   }
